@@ -20,6 +20,7 @@ const TABS = [
 ];
 
 export const PreparationPage: React.FC<PreparationPageProps> = ({
+  setActivePage,
   initialSubTab = 'mocktest',
 }) => {
   const [subTab, setSubTab] = useState<string>(initialSubTab);
